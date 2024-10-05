@@ -1,6 +1,3 @@
-import getFullBudgetObject from './9-getFullBudget';
+import createEmployeesObject from './11-createEmployeesObject.js';
 
-const fullBudget = getFullBudgetObject(20, 50, 10);
-
-console.log(fullBudget.getIncomeInDollars(fullBudget.income));
-console.log(fullBudget.getIncomeInEuros(fullBudget.income));
+console.log(createEmployeesObject('Software', ['Bob', 'Sylvie']));
