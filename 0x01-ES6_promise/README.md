@@ -1,2 +1,2 @@
 # 0x01 es6 promises 
-![visulal]("./promises.png")
+![visulal](./promises.png)
