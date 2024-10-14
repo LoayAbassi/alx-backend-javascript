@@ -7,12 +7,15 @@
 
 1. promise
 operation that will complete in the future(success/failure)
-p = new Promise((resolve,reject)=>{
+return new Promise((resolve,reject)=>{
     ...
     resolve("success")
     reject("failure") // wrong
     reject(new Error("failure"))
     ...
 })
+
+it's possible to return one element of a promise, 
+return Promise.reject(...)
 0 - 1 // examples
 
