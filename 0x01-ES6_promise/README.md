@@ -7,12 +7,12 @@
 
 1. promise
 operation that will complete in the future(success/failure)
-
-    const promise = new Promise((resolve, reject) => {
-    if (success) resolve("Done!");
-    else reject("Error!");
-    });
-
-    promise.then(result => console.log(result))
-        .catch(error => console.log(error));
+p = new Promise((resolve,reject)=>{
+    ...
+    resolve("success")
+    reject("failure") // wrong
+    reject(new Error("failure"))
+    ...
+})
+0 - 1 // examples
 
