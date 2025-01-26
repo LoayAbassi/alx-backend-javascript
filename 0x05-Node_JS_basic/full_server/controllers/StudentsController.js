@@ -1,6 +1,6 @@
-import { readDatabase } from '../utils.js';
-// const readDatabase = require('../utils.js');
-// import readDatabase from '../utils.js';
+import { readDatabase } from '../utils';
+// const readDatabase = require('../utils');
+// import readDatabase from '../utils';
 
 export class StudentsController {
   static async getAllStudents(req, res) {
