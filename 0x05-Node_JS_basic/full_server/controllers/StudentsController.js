@@ -2,7 +2,7 @@ import { readDatabase } from '../utils';
 // const readDatabase = require('../utils');
 // import readDatabase from '../utils';
 
-export class StudentsController {
+export default class StudentsController {
   static async getAllStudents(req, res) {
     try {
       const dbFilePath = process.argv[2]; // Get file path from command line argument
